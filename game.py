@@ -36,6 +36,9 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
+        elif event.type == pygame.MOUSEBUTTONDOWN:
+            if event.button == 1:  # Left mouse button
+                print(f"Mouse clicked at: {event.pos}")  # <-- Print position
 
     keys = pygame.key.get_pressed()
     if keys[pygame.K_LEFT]:

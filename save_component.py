@@ -12,7 +12,8 @@ def load_game(filename):
 game_data = {
     "player": {"name": "Alice", "level": 5, "hp": 100},
     "inventory": ["sword", "shield"],
-    "position": {"x": 10, "y": 5}
+    "position": {"x": 10, "y": 5},
+    "": {}
 }
 
 save_game("save1.json", game_data)
