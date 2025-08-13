@@ -1,0 +1,15 @@
+{
+    "player": {
+        "name": "Alice",
+        "level": 5,
+        "hp": 100
+    },
+    "inventory": [
+        "sword",
+        "shield"
+    ],
+    "position": {
+        "x": 10,
+        "y": 5
+    }
+}

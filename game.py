@@ -6,7 +6,7 @@ pygame.init()
 # Screen dimensions
 WIDTH, HEIGHT = 1024, 768
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("2D Hero Movement with Image")
+pygame.display.set_caption("2D Advanture GAME DEMO")
 
 # Colors
 WHITE = (255, 255, 255)
